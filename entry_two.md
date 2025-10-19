@@ -1,10 +1,10 @@
-#Troubleshooting when Connection via Cloud Identity-Aware Proxy Fails
-##Notes from someone who is in no way an expert.
+# Troubleshooting when Connection via Cloud Identity-Aware Proxy Fails
+## Notes from someone who is in no way an expert.
 
 After installing Wordpress on my VM, it completely crashed.
 Any time I tried to connect to my server, it would spend 5 minutes saying "establishing connection to SSH server..." before eventually saying "Connection via Cloud-Identity Aware Proxy Failed."
 
-###Steps to Troubleshoot
+### Steps to Troubleshoot
 1. Retry without Cloud Identity-Aware Proxy, as you may be able to bypass it.
 2. Click on "troubleshoot."
 	1. Follow steps of the troubleshoot. It likely will say that the Cloud-Identity Aware Proxy API has not been used or is disabled.
